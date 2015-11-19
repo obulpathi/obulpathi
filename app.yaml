@@ -4,11 +4,8 @@ api_version: 1
 threadsafe: false
 
 handlers:
-- url: /images
-  static_dir: images
-
-- url: /resources
-  static_dir: resources
+- url: /assets
+  static_dir: assets
 
 - url: /index.html
   static_files: index.html
